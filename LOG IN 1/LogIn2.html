@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+       
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body{
+            display: flex;
+            
+            align-items: center;
+            min-height: 100vh;
+            background:url('ramon-salinero-vEE00Hx5d0Q-unsplash.jpg')no-repeat;
+            background-size: cover;
+            background-position: center;
+            
+        }
+        .container{
+            width: 430px;
+            background: transparent;
+            height: 530px;
+            margin-left: 250px;
+            box-shadow: inset 1px 6px 12px 3px rgb(4, 83, 157)
+            ;
+         color: white;
+         border-radius:160px 0px 160px 0px;
+             
+            padding: 30px 40px ;
+            border: 3px solid rgba(255, 255, 255, .3);
+            backdrop-filter:blur(13px);
+
+
+        }
+   
+        .container h1{
+
+            font-size: 35px;
+            text-align: center;
+          font-family: Kalnia;
+            margin-top: 50px;
+        }
+        .container .input-box{
+            position: relative;
+            width: 100%;
+            height: 50px;
+            
+            margin: 30px 0 ;
+        }
+        .input-box input{
+            width: 100%;
+            height: 100%;
+          background: transparent;
+          border: none;
+          outline: none;
+          border: 3px solid rgba(255, 255, 255, .2);
+          border-radius: 38px;
+          color: #fff;
+          padding: 20px 45px 20px 20px;
+          font-size: 17px;
+        }
+        .input-box input::placeholder{
+            color: white;
+            font-family: Quicksand;
+            font-size: 15px;
+        }
+        .input-box i{
+            position: absolute;
+            right: 20px;
+            top: 30%;
+            transform: translate(-50%);
+            font-size: 22px;
+            
+        }
+        .container .remember{
+        
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            margin: -15px 0 16px;
+            
+           
+        }
+        .remember label input{
+            margin-top: 7px;
+            margin-right: 3px;
+            
+        }
+        .remember a{
+            color: white;
+            margin-top: 7px;
+            text-decoration: none;
+            font-family: Kalnia;
+        }
+        .remember a:hover{
+            text-decoration: underline;
+        }
+        .container .btn{
+            margin-top: 26px;
+            width: 100%;
+            height: 42px;
+            background: white;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 23px;
+            box-shadow: 8px 10px 20px 0 rgba(8, 50, 135, 0.379)
+            ;
+
+        }
+        .container .register-link{
+            text-decoration: none;
+            font-weight: 600;
+            color: wheat;
+            text-align: center;
+            margin : 20px 0 15px;
+        }
+        .register-link p a{
+            color: wheat;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 5px;
+            font-size: 18px;
+            
+        }
+        input[type=checkbox]{
+  accent-color:  blue;  
+  }
+  @media  (min-width:318px)and (max-width:368px)
+  {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 150px;
+  
+
+    }
+ .container{
+   
+ min-width: 325px;
+ margin-right: 1px;
+ margin-left:174px;
+ padding: 10px;
+
+    }
+ }
+    
+  
+ 
+  @media  (min-width:369px)and (max-width:406px)
+{
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 76px;
+        height:300;
+        margin: 0px 30px 0 44px;
+        backdrop-filter: 30px;
+        
+
+    }
+    .container{
+
+ border-radius: 100px 0 100px 0px;
+ min-width: 360px;
+ margin-right: 40px;
+ padding: 30px;
+}
+.remember label input{
+         margin-top: 20px;
+        
+         
+     }
+     .remember a{
+         margin-top: 20px;
+     }
+
+}
+@media  (min-width:407px)and (max-width:446px)
+{
+
+    body{
+        display: flex;
+       justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 80px;
+        margin: 0px 30px 0 44px;
+        backdrop-filter: 30px;
+
+    }
+.container{
+ 
+    border-radius: 100px 0 100px 0px;
+    min-width: 370px;
+    margin-right: 0px;
+    padding-left: 30px;
+}
+.remember label input{
+            margin-top: 20px;
+           
+            
+        }
+        .remember a{
+            margin-top: 20px;
+        }
+}
+  @media  screen and (min-width:446px) and (max-width:768px)
+   {
+    .container{
+            width: 380px;
+            background: transparent;
+            height: 480px;
+            margin-left: 37px;
+            
+            box-shadow: inset 1px 6px 12px 3px rgb(4, 83, 157)
+            ;
+         color: white;
+         border-radius:120px 0px 120px 0px;
+             
+            padding: 20px 30px;
+            border: 3px solid rgba(255, 255, 255, .3);
+            backdrop-filter:blur(20px);
+
+
+        }
+        .container h1{
+font-size: 35px;
+text-align: center;
+font-family: Kalnia;
+margin-top: 20px;
+}
+.container .remember{
+        
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin: -1px 0 1px;
+        
+       
+    }
+    .remember label input{
+        margin-top: 7px;
+        margin-right: 0px;
+    }
+    .remember a{
+        color: white;
+        margin-top: 7px;
+        text-decoration: none;
+        font-family: Kalnia;
+    }
+    
+  }
+
+  @media  screen and (min-width:769px) and (max-width:1024px)
+  {
+    .container{
+            width: 400px;
+            background: transparent;
+            height: 500px;
+            margin-left: 76px;
+            box-shadow: inset 1px 6px 12px 3px rgb(4, 83, 157)
+            ;
+         color: white;
+         border-radius:120px 0px 120px 0px;
+             
+            padding: 20px 30px;
+            border: 3px solid rgba(255, 255, 255, .3);
+            backdrop-filter:blur(20px);
+
+
+        }
+
+        .container h1{
+font-size: 35px;
+text-align: center;
+font-family: Kalnia;
+margin-top: 40px;
+}
+  }
+  @media  screen and (min-width:1025px) and (max-width:1440px) {
+    .container{
+            width: 400px;
+            background: transparent;
+            height: 500px;
+            margin-left: 70px;
+            box-shadow: inset 1px 6px 12px 3px rgb(4, 83, 157)
+            ;
+         color: white;
+         border-radius:180px 0px 180px 0px;
+             
+            padding: 20px 30px;
+            border: 3px solid rgba(255, 255, 255, .3);
+            backdrop-filter:blur(20px);
+
+
+        }
+        .container h1{
+font-size: 35px;
+text-align: center;
+font-family: Kalnia;
+margin-top: 45px;
+}
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required> 
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <div class="remember">
+               <label style="font-family: Kalnia;"> <input type="checkbox">Remember Me</label>
+                <a href="#">Forgot Password ? </a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p> Don't Have an account ?<a href="#">Register</a> </p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
