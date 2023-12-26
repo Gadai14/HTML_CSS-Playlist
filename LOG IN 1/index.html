@@ -17,27 +17,26 @@
         }
         body{
             display: flex;
-            
+            justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background:url('ramon-salinero-vEE00Hx5d0Q-unsplash.jpg')no-repeat;
+            background:url('ramon-salinero-vEE00Hx5d0Q-unsplash.jpg') no-repeat;
             background-size: cover;
             background-position: center;
             
         }
         .container{
-            width: 430px;
+            width: 415px;
             background: transparent;
             height: 530px;
-            margin-left: 250px;
             box-shadow: inset 1px 6px 12px 3px rgb(4, 83, 157)
             ;
          color: white;
-         border-radius:160px 0px 160px 0px;
+         border-radius:190px 0px 190px 0px;
              
-            padding: 30px 40px ;
+            padding: 20px 40px ;
             border: 3px solid rgba(255, 255, 255, .3);
-            backdrop-filter:blur(13px);
+            backdrop-filter:blur(45px);
 
 
         }
@@ -112,22 +111,23 @@
             cursor: pointer;
             border: none;
             outline: none;
-            border-radius: 30px;
+            border-radius: 40px;
             font-weight: 600;
             font-size: 23px;
             box-shadow: 8px 10px 20px 0 rgba(8, 50, 135, 0.379)
             ;
+         
 
         }
         .container .register-link{
             text-decoration: none;
             font-weight: 600;
-            color: wheat;
+            color: white;
             text-align: center;
             margin : 20px 0 15px;
         }
         .register-link p a{
-            color: wheat;
+            color: white;
             text-decoration: none;
             font-weight: 600;
             padding: 5px;
@@ -137,186 +137,26 @@
         input[type=checkbox]{
   accent-color:  blue;  
   }
-  @media  (min-width:318px)and (max-width:368px)
-  {
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-size: cover;
-        width: 150px;
-  
-
-    }
- .container{
-   
- min-width: 325px;
- margin-right: 1px;
- margin-left:174px;
- padding: 10px;
-
-    }
- }
-    
-  
- 
-  @media  (min-width:369px)and (max-width:406px)
-{
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-size: cover;
-        width: 76px;
-        height:300;
-        margin: 0px 30px 0 44px;
-        backdrop-filter: 30px;
-        
-
-    }
-    .container{
-
- border-radius: 100px 0 100px 0px;
- min-width: 360px;
- margin-right: 40px;
- padding: 30px;
-}
-.remember label input{
-         margin-top: 20px;
-        
-         
-     }
-     .remember a{
-         margin-top: 20px;
-     }
-
-}
-@media  (min-width:407px)and (max-width:446px)
-{
-
-    body{
-        display: flex;
-       justify-content: center;
-        align-items: center;
-        background-size: cover;
-        width: 80px;
-        margin: 0px 30px 0 44px;
-        backdrop-filter: 30px;
-
-    }
-.container{
- 
-    border-radius: 100px 0 100px 0px;
-    min-width: 370px;
-    margin-right: 0px;
-    padding-left: 30px;
-}
-.remember label input{
-            margin-top: 20px;
-           
-            
-        }
-        .remember a{
-            margin-top: 20px;
-        }
-}
-  @media  screen and (min-width:446px) and (max-width:768px)
-   {
-    .container{
-            width: 380px;
-            background: transparent;
-            height: 480px;
-            margin-left: 37px;
-            
-            box-shadow: inset 1px 6px 12px 3px rgb(4, 83, 157)
-            ;
-         color: white;
-         border-radius:120px 0px 120px 0px;
-             
-            padding: 20px 30px;
-            border: 3px solid rgba(255, 255, 255, .3);
-            backdrop-filter:blur(20px);
-
-
-        }
-        .container h1{
-font-size: 35px;
-text-align: center;
-font-family: Kalnia;
-margin-top: 20px;
-}
-.container .remember{
-        
-        display: flex;
-        justify-content: space-between;
-        font-size: 14px;
-        margin: -1px 0 1px;
-        
-       
-    }
-    .remember label input{
-        margin-top: 7px;
-        margin-right: 0px;
-    }
-    .remember a{
-        color: white;
-        margin-top: 7px;
-        text-decoration: none;
-        font-family: Kalnia;
-    }
-    
-  }
-
-  @media  screen and (min-width:769px) and (max-width:1024px)
+  @media (max-width:380px)
   {
     .container{
-            width: 400px;
-            background: transparent;
-            height: 500px;
-            margin-left: 76px;
-            box-shadow: inset 1px 6px 12px 3px rgb(4, 83, 157)
-            ;
-         color: white;
-         border-radius:120px 0px 120px 0px;
-             
-            padding: 20px 30px;
-            border: 3px solid rgba(255, 255, 255, .3);
-            backdrop-filter:blur(20px);
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+    }
+.input-box{
+    width: 300px;
+}
+.container h1{
 
-
-        }
-
-        .container h1{
 font-size: 35px;
 text-align: center;
 font-family: Kalnia;
-margin-top: 40px;
+margin-top: 100px;
 }
   }
-  @media  screen and (min-width:1025px) and (max-width:1440px) {
-    .container{
-            width: 400px;
-            background: transparent;
-            height: 500px;
-            margin-left: 70px;
-            box-shadow: inset 1px 6px 12px 3px rgb(4, 83, 157)
-            ;
-         color: white;
-         border-radius:180px 0px 180px 0px;
-             
-            padding: 20px 30px;
-            border: 3px solid rgba(255, 255, 255, .3);
-            backdrop-filter:blur(20px);
 
-
-        }
-        .container h1{
-font-size: 35px;
-text-align: center;
-font-family: Kalnia;
-margin-top: 45px;
-}
-  }
     </style>
 </head>
 <body>
